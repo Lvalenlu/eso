@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    margin: 0 auto;
+    background-color: rgb(144, 174, 175);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box; /*Acomodar el tamaño de la caja según el ancho y el alto establecido*/
+    /*Los bordes trabajan con 3 propiedades o atributos*/
+    border-color: crimson;
+    border-style: ridge;
+    border-width: 15px;
+    /*Vertical - horizontal*/
+    border-style: ridge dotted;
+    /*Top | horizontal | bottom*/
+    border-style: hidden double inset;
+    /*simplifcar*/
+    border: 10px solid red;
+    border-radius: 8% 2%;
+    box-shadow: 2px 3px 5px 10px rgba(140, 218, 218, 0.433);
+    margin-top: 5%;
+}
+.card{
+    background-color: #A69C94;
+    color: #030303;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 5px auto;
+    text-align: center;
+    box-shadow: 0 0 20px 0 #594731;
+}
+.cat{
+    display: block;
+    width: 180px;
+    height: 140px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text{
+    font-style: oblique;
+    font-size: small;
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #8C8070;
+    margin: 2% 40% 0 40% ;
+    box-shadow: 0 0 10px 0 #594731;
+    padding: 2px;
+}

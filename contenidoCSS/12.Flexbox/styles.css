@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    /*Se trabaja en un solo eje o dirección*/
+    display: flex;
+    height: 500px;
+    background-color: brown;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 1%;
+    flex-direction: row; /*Por defecto
+    Dirección de ejes. Eje principal el horizontal
+    puede ser row | row-reverse | column | column-reverse*/
+    flex-wrap: wrap; 
+    /*Obliga a los hijos a que esten en una sola línea o no
+    Valores: nowrap | wrap | wrap reverse*/
+    justify-content: space-between;
+    /*flex-start | flex-end | center | space-between | space-around | space-evenly*/
+    align-items: flex-start;
+    /*flex-start | flex-end | center | strech | baseline*/
+}
+.flex-container>div{
+    color: whitesmoke;
+    width: 10%;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+}

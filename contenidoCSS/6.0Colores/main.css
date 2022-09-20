@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Acomodar el tamaño de la caja según el ancho y el alto establecido*/
+}
+.title{
+    color: indianred;
+    color: rgba(6, 0, 1, 0.677);
+    background-color: hsl(300, 55%, 35%);
+    padding: 4px;
+}
+.art1{
+    background: rgb(137, 50, 50);
+    color: rgb(20, 3, 3);
+}
+.art2{
+    color: hsla(300, 20%, 40%, 0.666);
+    background-color: rgb(180, 199, 215);
+}
+.art3{
+    color: #5202029c;
+    background-color: #0f555ce1;
+    padding: 20px;
+}
+/*color adobe --> Unplash
+pixabay
+boxicons
+fontawesome
+cssmatic
+cssbuttoncreator
+*/

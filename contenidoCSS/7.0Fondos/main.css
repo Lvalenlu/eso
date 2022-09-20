@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Acomodar el tamaño de la caja según el ancho y el alto establecido*/
+}
+.title{
+    color: white;
+    padding: 10px;
+}
+.art1{
+    padding: 35px;
+    /*Colocar una inagen de fondo*/
+    background-image: url(./img/forest-7383165_1280.jpg);
+    background-position: center;
+    color: #faebd7;
+}
+.art2{
+    width: 500px;
+    height: auto;
+    background-image: url(./img/cloud-5055011_1280.jpg);
+    color: #ffffff;
+    background-size: contain;/*Tamaño real sin estirarla ni cortarla*/
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+.art3{
+    background-image: url(./img/star-solid.svg);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 10% auto;
+    border: 2px solid black;
+    /*
+        Posición en base al plano cartesiano x, y
+        Primer parámetro x, seegundo parámetro y
+    */
+    background-position: 10px 20px;
+}
+.cabecera{
+    background-image: url(./img/forest-7383165_1280.jpg);
+}
+
+ul > li{
+     /*Selecciona los hijos de ul*/
+     list-style: none;
+     display: inline-block;
+}

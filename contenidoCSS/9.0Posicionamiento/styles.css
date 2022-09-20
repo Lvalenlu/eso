@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;  /*Acomoda el tamaño de la caja segun el ancho y alto */    
+}
+/*Elemento de bloque: Es aquel que va a ocupar todo el ancho del padre, generando un salto de línea al otro elemento*/
+.container{
+    width: 800px;
+    height: 400px;
+    margin: 40px auto;
+    border: 2px solid black;
+    position: relative;/*Posiciona ancestro*/
+}
+.box{
+    width: 160px;
+    height: 80px;
+    background-color: rgb(79, 10, 10);
+    border: 2px solid black;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.static{
+    position: static;/*Posicionamiento por default*/
+    background-color: chocolate;
+}
+.relative{
+    position: relative;/*Según sus 4 propiedades top, right, left, bottom respecto a su ancestro*/
+    background-color: darkcyan;
+    left: 200px;/*Sigue guardando su espacio inicial*/
+}
+.absolute{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(148, 62, 41);
+    position: absolute; /*Posicionado respecto a su ancestro POSICIONADO*/
+    top: 100px;
+    left: 100;/*Si su ancestro no tiene posicionaamento se va al body, que si tiene posicionamient por default*/
+    border-radius: 50%;
+    /*No guarda su espacio inicial*/
+}
+.fixed{
+    position: fixed;/*Posicionado repecto a su viewport*/
+    background-color: violet;
+    top: 0;
+    right: 0;
+}
+.sticky{
+    background-color: green;
+    position: sticky;
+    top: 50px;
+    left: 150px;
+    /*Combinación entre static y fixed, se mueve dentro de su padre*/
+}
+
+/*Posicionamento, desplaza de acuerdo con las propiedades top | right | left | bottom*/

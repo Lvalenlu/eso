@@ -1,0 +1,48 @@
+/*
+1. Selector pór etiqueta: Cambia el estilo a todas las etiquetas en cuestión, se coloca directamente el nombrede la etiqueta
+2. Selector por clase: Cambia o modifica el estilo del elemento en donde se mencione la clase en el atributo class paa crear un estilo por clase se coloca .nombreEstilo
+3. Selector por identificar es decir por el id, modifica el estilo del elemento que pose el id
+4. Seletor Universal
+*/
+
+/*Por etiqueta*/
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    background-color: thistle;
+}
+/*2. Selector por class*/
+.subtitulo{
+    text-align: center;
+    color: brown;
+    background-color: bisque;
+}
+/*3. Selector por ID*/
+#info{
+    border-radius: 10px;
+    background-color: chocolate;
+    color: azure;
+    padding: 10px;
+}
+/*Selector por atributo
+*/
+[class]{
+    /*Se aplicará a todos los elementos que tengan atributo class*/
+    background-color: burlywood;
+}
+/*Combinadores*/
+a[href]{
+    text-align: center;
+    margin: 2%;
+    color: #590202;
+}
+/*Utilizando sufijos*/
+a[href$=".com"]{
+    margin-left: 4%;
+    color: blue;
+}
+/*Utilizando prefijos*/
+[class^="as"]{
+    font-size: 25px;
+    background-color: blueviolet;
+}

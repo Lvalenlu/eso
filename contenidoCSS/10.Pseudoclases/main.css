@@ -1,0 +1,58 @@
+/*Pseudoclase: Es una palabre clave que se añade a los selectores y que específica un estado especial de los selectores con " : " */
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;  /*Acomoda el tamaño de la caja segun el ancho y alto */    
+}
+.menu{
+    width: 100%;   
+    margin: auto;
+    text-align: center;
+    font-size: 19px;    
+    font-weight: 800;
+}
+ul >li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e7dadfc3;
+    margin-top: 2%;
+    border-radius: 15px;    
+}
+/*Pseudoclase*/
+.element:active{
+    background-color: #ba1957c3;
+}
+.element:hover{
+    font-size: 30px;
+}
+
+.input{
+    display: block;/*Ya son elementos  en línea  y lo queremos uno debajo del otro*/
+    padding: 1%;
+}
+.input:focus{
+    background: rgb(179, 117, 117);
+    border: 4px double #7b21cf;
+    outline: none;
+}
+.title{
+    background-color: #e7dadfe0;
+    width: 300px;/*Tiene que haber un valor en el width para centrar*/
+    height: 100px;
+    margin: auto;/*centar*/
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;/*Tamaño de la línea vertical, como el espacio entre el  top y el texto*/
+    margin-top: calc(30vh - 50px);
+    font-weight: 400;
+    color: #732626;    
+}
+article:nth-child(even){
+    /*Hijos pares*/
+    background-color: burlywood;
+}
+article:nth-child(odd){
+    /*Hijos impares*/
+    background-color: teal;
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*.container{
+    background: linear-gradient(white, #FEB338, #A41307);
+    background: linear-gradient(90deg, white 60%, #FEB338, #A41307, #BF562A)
+}*/
+/*Google fonts*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.cabecera{
+    width: 100%;
+    height: 400px;
+    background-color: #01011d;
+    background-image: linear-gradient(#f0f8ff43 60%, #a4140752), url(./img/forest-7383165_1280.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;/*La imagen se mantiene fixed a esar de bajar*/
+    background-position: center;
+    text-align: center;
+    padding: 0.1px;
+    color: aliceblue;
+}
+.title{
+    font-size: 60px;
+    margin-top: 150px;
+}
+nav a{
+    color: #8a4e00;
+}
+ul>li{
+    list-style: none;/*Sin list item marker*/
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+.div{
+    text-align: right;
+    padding: 5px;
+    margin-top: 3%;
+}
+.ingreso{
+    display: inline-block;/*Convierte en un bloque*/
+    padding: 20px;
+    background-color: #d2d7de;
+    color: #732626;
+    text-transform: uppercase;/*Mayúscula*/
+    border-radius: 50px;
+    cursor: pointer;/*Cuando el ratón se ponga encima del bloque se convierte en pointer*/
+    text-decoration: underline;
+}
+.subtitle{
+    text-align: center;
+    letter-spacing: 3px;/*Espaciado entre cada letra*/ 
+    text-shadow: 7px 5px 5px #732626;
+}
+.parrafoHsl{
+    word-spacing: 10px;
+    font-style: oblique;
+}
+.parrafoLorem{
+    line-height: 30px;
+    font-style: oblique;
+}
+.seccion{
+    margin: 10px auto;
+    text-align: center;
+}
+.arti{
+    display: inline-block;/*Uno al lado del otro*/
+    width: 45%;
+    margin: 5px 1.2%;
+    background: #d2d7de86;
+    padding: 20px;
+    vertical-align: top;/*Se alinea los bloques hacia arriba*/
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #feb338;/*offset-x offset-y blur-radius spread-radius color*/
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(45deg, #9b8787, #a9736e 60%, #ccac81);
+}
+.footer a{
+    color: #d2d7de;
+    padding: 5px;
+}
+.textRedes{
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+    width: 48%;
+    box-sizing: border-box;
+    color: #d2d7de;
+}
+.redes{
+    display: inline-block;
+    text-align: end;/*Al final del bloque(rigth)*/
+    font-size: 25px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.medio{
+    width: 100%;
+    height: 160px;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(45deg, #f3f3f344, #8a4e0050);
+    color: #d2d7de;
+    text-align: center;
+}
